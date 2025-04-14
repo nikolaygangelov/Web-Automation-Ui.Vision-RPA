@@ -1,0 +1,260 @@
+{
+  "Name": "zaprihojdavanenamateriali",
+  "CreationDate": "2025-4-14",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://******.com/xpert/zaprihojdavanePoDataNaVavejdane.aspx",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "linkText=1",
+      "Value": "#doubleclick",
+      "Targets": [
+        "linkText=1",
+        "xpath=//*[@id=\"ctl00_ContentPlaceHolder1_clndrFrom\"]/tbody/tr[3]/td[6]/a",
+        "xpath=//td[6]/a",
+        "css=#ctl00_ContentPlaceHolder1_clndrFrom > tbody > tr:nth-child(3) > td:nth-child(6) > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Math.floor((new Date() - new Date('2000-01-01')) / (1000 * 60 * 60 * 24));\n\n",
+      "Value": "myDateNumber",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "xpath=//a[@href=\"javascript:__doPostBack('ctl00$ContentPlaceHolder1$clndrTo','${myDateNumber}')\"]",
+      "Value": "#doubleclick",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementPresent",
+      "Target": "xpath=//*[@id=\"ctl00_ContentPlaceHolder1_gvParts\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ctl00_ContentPlaceHolder1_btnExportExcel",
+      "Value": "",
+      "Targets": [
+        "id=ctl00_ContentPlaceHolder1_btnExportExcel",
+        "name=ctl00$ContentPlaceHolder1$btnExportExcel",
+        "xpath=//*[@id=\"ctl00_ContentPlaceHolder1_btnExportExcel\"]",
+        "xpath=//input[@id='ctl00_ContentPlaceHolder1_btnExportExcel']",
+        "xpath=//tr[2]/td[2]/input",
+        "css=#ctl00_ContentPlaceHolder1_btnExportExcel"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://m365.cloud.microsoft/onedrive/****",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "My_files.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Select_zapr1_file.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Drop_down_for_OpenWith.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Open_in_browser.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "10000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "860,205",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/html/div[7]",
+        "xpath=//div[7]",
+        "css= > html > div:nth-child(9)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Convert.png",
+      "Value": "",
+      "Targets": [
+        "id=id__375",
+        "xpath=//*[@id=\"id__375\"]",
+        "xpath=//span[@id='id__375']",
+        "xpath=//span/span/span",
+        "css=#id__375"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "selectFrame",
+      "Target": "relative=top",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectFrame",
+      "Target": "index=0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "500,280",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"Sheet0_0_0_1\"]/div/canvas",
+        "xpath=//div[12]/div/div/div[2]/div/canvas",
+        "css=#Sheet0_0_0_1 > div > canvas"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "ViewTab.png",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"FreezeUnfreezePanesFlyout\"]/div",
+        "xpath=//button[2]/div",
+        "css=#FreezeUnfreezePanesFlyout > div"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Freeze_Panes.png",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"Ribbon-FreezeUnfreezePanesFlyoutDropdown\"]/div/ul/li/div/ul/li/button/div/span",
+        "xpath=//li/button/div/span",
+        "css=#Ribbon-FreezeUnfreezePanesFlyoutDropdown > div > ul > li:nth-child(1) > div > ul > li.item-344 > button > div > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Freeze_at_selection.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Data_Tab.png",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"Sheet0_0_0_1\"]/div/canvas",
+        "xpath=//div[11]/div/div[16]/div/div/div[2]/div/canvas",
+        "css=#Sheet0_0_0_1 > div > canvas"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Add_Filter.png",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"AutoFilterToggle\"]/span/i/svg",
+        "css=#AutoFilterToggle > span.fui-Button__icon.rywnvv2.fui-ToggleButton__icon.ms-RibbonButton-icon.___9trzw00.f1osuteh.fccw675.frvgh55.fq4mcun.f1exjqw5.fg4l7m0.f10saiw2.fi2ljxd.f62i5r0.f1rdywyb.f14icqv.f1rz8bjk.f1ywm7hm.fdw0yi8.f1tdddsa.fk8j09s > i > svg"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Remove_Duplicates.png",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"RemoveDuplicates\"]/span[2]",
+        "xpath=//div[5]/div/div/div/div/div/div/div/button[3]/span[2]",
+        "css=#RemoveDuplicates > span.textContainer.___18sueub.fz5stix.fkl3uby.fy9rknc.fytdu2e.fueg7zk.flk2ux3.f1y8shg2"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Unselect_all_columns.png",
+      "Value": "",
+      "Targets": [
+        "id=SelectAllCheckBoxId",
+        "xpath=//*[@id=\"SelectAllCheckBoxId\"]",
+        "xpath=//input[@id='SelectAllCheckBoxId']",
+        "xpath=//span/input",
+        "css=#SelectAllCheckBoxId"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "belegnr.png",
+      "Value": "",
+      "Targets": [
+        "id=WACDialogOverlay",
+        "xpath=//*[@id=\"WACDialogOverlay\"]",
+        "xpath=//div[@id='WACDialogOverlay']",
+        "xpath=//body/div[2]",
+        "css=#WACDialogOverlay"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "rem.png",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/html/div",
+        "xpath=//html/div",
+        "css= > html > div:nth-child(3)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Number_removed_OK.png",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
