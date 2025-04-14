@@ -1,0 +1,217 @@
+{
+  "Name": "TMS",
+  "CreationDate": "2025-4-14",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://*******",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Login@POS=4",
+      "Value": "",
+      "Targets": [
+        "linkText=Login@POS=2",
+        "xpath=//*[@id=\"main-content\"]/div/div/section[3]/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/a",
+        "xpath=//section[3]/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/a",
+        "css=#main-content > div.ezlandingpage-field > div > section:nth-child(9) > div > div:nth-child(2) > div > div.slider-wrapper.teaser-element-slider.slick-initialized.slick-slider > div > div > div.slider-item.slick-slide.slick-current.slick-active > div > div.teaser-element-content.py-4.px-4 > div.cta-group.mt-auto > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=username",
+      "Value": "",
+      "Targets": [
+        "id=username",
+        "name=j_username",
+        "xpath=//*[@id=\"username\"]",
+        "xpath=//input[@id='username']",
+        "xpath=//div/input",
+        "css=#username"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=username",
+      "Value": "******",
+      "Targets": [
+        "id=username",
+        "name=j_username",
+        "xpath=//*[@id=\"username\"]",
+        "xpath=//input[@id='username']",
+        "xpath=//div/input",
+        "css=#username"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=password",
+      "Value": "",
+      "Targets": [
+        "id=password",
+        "name=j_password",
+        "xpath=//*[@id=\"password\"]",
+        "xpath=//input[@id='password']",
+        "xpath=//div[2]/input",
+        "css=#password"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=password",
+      "Value": "*******",
+      "Targets": [
+        "id=password",
+        "name=j_password",
+        "xpath=//*[@id=\"password\"]",
+        "xpath=//input[@id='password']",
+        "xpath=//div[2]/input",
+        "css=#password"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "name=_eventId_proceed",
+      "Value": "",
+      "Targets": [
+        "name=_eventId_proceed",
+        "xpath=/html/body/div/div/form/div[4]/button",
+        "xpath=//button[@name='_eventId_proceed']",
+        "xpath=//button",
+        "css=body > div > div > form > div:nth-child(5) > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=select2-elmtClntId-container",
+      "Value": "",
+      "Targets": [
+        "id=select2-elmtClntId-container",
+        "xpath=//*[@id=\"select2-elmtClntId-container\"]",
+        "xpath=//span[@id='select2-elmtClntId-container']",
+        "xpath=//span/span/span/span",
+        "css=#select2-elmtClntId-container"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://******.jsp",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=select2-elmtClntId-container",
+      "Value": "",
+      "Targets": [
+        "id=select2-elmtClntId-container",
+        "xpath=//*[@id=\"select2-elmtClntId-container\"]",
+        "xpath=//span[@id='select2-elmtClntId-container']",
+        "xpath=//span/span/span/span",
+        "css=#select2-elmtClntId-container"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "*****_Client.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"elmtBtnClientSelectLogin\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"elmtBtnClientSelectLogin\"]/span",
+        "xpath=//a/span",
+        "css=#elmtBtnClientSelectLogin > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"elmtBtnSendungUebersicht\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"elmtBtnSendungUebersicht\"]/span",
+        "xpath=//li[2]/a/span",
+        "css=#elmtBtnSendungUebersicht > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"aElmtBtnFilter\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"aElmtBtnFilter\"]/span",
+        "xpath=//element-definition[3]/a/span",
+        "css=#aElmtBtnFilter > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "name=sLadungsnummer",
+      "Value": "",
+      "Targets": [
+        "name=sLadungsnummer",
+        "xpath=//*[@id=\"content-div\"]/table[2]/tbody/tr[2]/td[2]/input",
+        "xpath=//input[@name='sLadungsnummer']",
+        "xpath=//tr[2]/td[2]/input",
+        "css=#content-div > table.table-list.max-width-1180.table-filter-content > tbody > tr:nth-child(2) > td.common-grid-input-length > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "prompt",
+      "Target": "name=sLadungsnummer",
+      "Value": "var_with_input",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=sLadungsnummer",
+      "Value": "${var_with_input}",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"searchBtn\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"searchBtn\"]/span",
+        "xpath=//font[2]/a/span",
+        "css=#searchBtn > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"aElmtBtnDownload\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"aElmtBtnDownload\"]/span",
+        "xpath=//element-definition[3]/a[2]/span",
+        "css=#aElmtBtnDownload > span"
+      ],
+      "Description": ""
+    }
+  ]
+}
